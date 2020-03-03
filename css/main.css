@@ -463,7 +463,7 @@ a:active {
 }
 
  .ethos-figure {
-        width: 60%;
+    width: 60%;
      margin: 5% auto;
      
     }
@@ -472,6 +472,17 @@ a:active {
     line-height: 1;
     margin-bottom: 0;
    
+}
+
+
+.dahl-quote {
+   width: 80%;
+    margin: 0 auto;
+    color: #E81942;
+}
+
+.roal-dahl-name {
+    font-size: 2rem;
 }
 
 
@@ -532,18 +543,21 @@ a:active {
     padding: 11em 3.5em 0 3.5em;
    
 }
+    
+    .welcome-note-p {
+    padding: 0 .5em;
+   
+}
+    
+    .ethos-figure {
+    width: 90%;
+     margin: 0 auto;
+     
+    }
+
 }
 
 
-.dahl-quote {
-   width: 80%;
-    margin: 0 auto;
-    color: #E81942;
-}
-
-.roal-dahl-name {
-    font-size: 2rem;
-}
 
 
 
