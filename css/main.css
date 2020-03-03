@@ -109,7 +109,7 @@ textarea {
 
 html, body {
     width: 100%;
-    /*overflow-x: hidden;*/
+    overflow-x: hidden;
     background: 0;
     margin: 0;
     font-size: 1rem;
@@ -444,7 +444,7 @@ a:active {
 .our-ethos {
     background: url(../img/background-vector-ethos-final.png) no-repeat;
     color: white;
-    padding: 10em 3.5em;
+    padding: 11em 3.5em;
    
 }
 
@@ -458,6 +458,7 @@ a:active {
 .flex-container-60-to-40 {
     display: flex;
     flex-flow: row wrap;
+    align-items: center;
     
 }
 
@@ -469,6 +470,8 @@ a:active {
 
 .our-ethos-h2 {
     line-height: 1;
+    margin-bottom: 0;
+   
 }
 
 
@@ -491,6 +494,7 @@ a:active {
         width: 25%;  
         margin: 0;
         transform: rotate(10deg);
+        border: 2px solid #ffff00;
     }
 }
 
@@ -500,14 +504,14 @@ a:active {
     
     .ethos-figure {
      
-     transform: rotate(10deg) translateY(-2em);
+     transform: rotate(10deg);
       
         
     }
 }
 
 
-@media (max-width: 300px) {
+@media (max-width: 350px) {
     
     
     .our-ethos-p {
@@ -521,6 +525,12 @@ a:active {
     
     font-size: 1.1rem;
     
+}
+    
+    .our-ethos {
+   
+    padding: 11em 3.5em 0 3.5em;
+   
 }
 }
 
@@ -579,7 +589,7 @@ a:active {
 }
 
 .email a {
-    color: #1B628D;
+    color: #027FB0;
     text-decoration: none;
     cursor: pointer;
 }
