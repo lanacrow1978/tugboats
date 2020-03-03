@@ -309,15 +309,30 @@ a:active {
          margin-left: 4%;
     }
     
+   
+    
 }
+
+
+@media (min-width: 1400px) {
+    
+    .header {
+        height: 140px;
+    }
+}
+
 
 @media (max-width: 420px) {
     
     .menu-link {
       
         font-size: 1.1rem;
-       
       
+    }
+    
+    
+    .logo {
+        width: 120px;
     }
     
 }
@@ -453,9 +468,10 @@ a:active {
 }
 
 .our-ethos {
-    background: url(../img/background-vector-ethos-final.png) no-repeat;
+    background: url(../img/background-vector-ethos-final.png);
     color: white;
     padding: 11em 3em 3em 3em;
+    background-size: cover;
    
 }
 
@@ -599,7 +615,8 @@ a:active {
 
 
 .footer-content {
-    background: url(../img/footer-sea-background.png) no-repeat;
+    background: url(../img/footer-sea-background.png);
+    background-size: cover;
     display: flex;
     flex-flow: row wrap;
     color:  #027FB0;
