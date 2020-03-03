@@ -562,6 +562,16 @@ a:active {
 }
 
 
+@media (min-width: 1400px) {
+    
+    .our-ethos {
+    
+    padding-top: 10em;
+    
+}
+}
+
+
 @media (max-width: 420px) {
     
     
