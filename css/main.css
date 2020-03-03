@@ -416,7 +416,7 @@ a:active {
 
 .welcome-info-div {
     width: 100%;
-    padding: 2em;
+    padding: 1em 2em;
      color: white;
     
 }
@@ -434,7 +434,7 @@ a:active {
 }
 
 .welcome-note-p {
-    padding: 0 5%;
+    padding: 0 2em;
     text-align: center;
     line-height: 1.8;
     font-size: 1.3rem;
@@ -442,7 +442,7 @@ a:active {
 }
 
 .our-ethos {
-    background: url(../img/background-vector-ethos-narrower.png) no-repeat;
+    background: url(../img/background-vector-ethos-final.png) no-repeat;
     color: white;
     padding: 10em 3.5em;
    
@@ -482,7 +482,7 @@ a:active {
     
   .our-ethos-p {
    width: 70%;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-align: left;
 
 }
@@ -504,6 +504,24 @@ a:active {
       
         
     }
+}
+
+
+@media (max-width: 300px) {
+    
+    
+    .our-ethos-p {
+   
+    font-size: 1rem;
+    
+
+}
+    
+    .welcome-note-p {
+    
+    font-size: 1.1rem;
+    
+}
 }
 
 
