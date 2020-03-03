@@ -468,9 +468,9 @@ a:active {
 }
 
 .our-ethos {
-    background: url(../img/background-vector-ethos-final.png);
+    background: url(../img/background-ethos-final.png);
     color: white;
-    padding: 11em 3em 3em 3em;
+    padding: 8em 3em 3em 3em;
     background-size: cover;
    
 }
@@ -615,7 +615,7 @@ a:active {
 
 
 .footer-content {
-    background: url(../img/footer-sea-background.png);
+    background: url(../img/footer-background-final.png);
     background-size: cover;
     display: flex;
     flex-flow: row wrap;
