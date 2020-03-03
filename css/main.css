@@ -241,8 +241,8 @@ a:active {
     border: 0;
     background: 0;
     position: absolute;
-    top: 1%;
-    left: 1%;
+    top: 10px;
+    left: 10px;
     color: white;
     font-size: 3rem;
     cursor: pointer;
