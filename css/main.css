@@ -311,6 +311,17 @@ a:active {
     
 }
 
+@media (max-width: 420px) {
+    
+    .menu-link {
+      
+        font-size: 1.1rem;
+       
+      
+    }
+    
+}
+
 
 /*============SLIDESHOW=============*/
 
@@ -408,7 +419,7 @@ a:active {
 /*==========WELCOME INFO SECTION============*/
 
 .welcome-info {
-    margin-top: 50%;
+    margin-top: 45%;
     display: flex;
     flex-flow: row wrap;
 
@@ -416,7 +427,7 @@ a:active {
 
 .welcome-info-div {
     width: 100%;
-    padding: 1em 2em;
+    padding: 1em;
      color: white;
     
 }
@@ -444,7 +455,7 @@ a:active {
 .our-ethos {
     background: url(../img/background-vector-ethos-final.png) no-repeat;
     color: white;
-    padding: 11em 3.5em;
+    padding: 11em 3em 3em 3em;
    
 }
 
@@ -507,6 +518,14 @@ a:active {
         transform: rotate(10deg);
         border: 2px solid #ffff00;
     }
+    
+    
+.dahl-quote {
+  
+    margin: 2em auto 0;
+   
+}
+
 }
 
 @media (min-width: 1200px) {
@@ -522,7 +541,7 @@ a:active {
 }
 
 
-@media (max-width: 350px) {
+@media (max-width: 420px) {
     
     
     .our-ethos-p {
@@ -532,22 +551,32 @@ a:active {
 
 }
     
+    .welcome-info-div {
+   
+    padding: 0 .5em 1em .5em;
+
+    
+}
+    
+    .welcome-note-h2 {
+    font-size: 2rem;
+}
+
+    
     .welcome-note-p {
     
     font-size: 1.1rem;
+    padding: 0;
     
 }
     
     .our-ethos {
    
-    padding: 11em 3.5em 0 3.5em;
+    padding: 11em 1em 1em 1em;
    
 }
     
-    .welcome-note-p {
-    padding: 0 .5em;
-   
-}
+ 
     
     .ethos-figure {
     width: 90%;
@@ -584,13 +613,13 @@ a:active {
     padding: .6em;
     text-align: center;
     color: rgba(255,255,255, .7);
-    line-height: 1;
+    line-height: 1.5;
     margin-top: 0;
 }
 
 .footer-contact {
     width: 100%;
-    padding: .8em 0;
+    padding: .8em 1em;
     text-align: center; 
 }
 
